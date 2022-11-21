@@ -1,5 +1,0 @@
-version: 1
-
-models:
-  - name: Sheet1
-    description: Table with the information of Download of apps from the applestore

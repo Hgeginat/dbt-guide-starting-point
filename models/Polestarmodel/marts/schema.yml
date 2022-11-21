@@ -1,5 +1,0 @@
-version: 2
-
-models:
-  - name: mart_polestar_info
-    description: Table with the information of Downloads only in Stockholm

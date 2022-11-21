@@ -4,10 +4,8 @@ HelenaTest:
     dev:
       type: bigquery
       method: service-account
-      project: polestartrial # Replace this with your project id
-      dataset: airbyte_prod_configapi # Replace this with dbt_your_name, e.g. dbt_bob
-      threads: 4
-      timeout_seconds: 300
-      location: EU
-      priority: interactive
+      project: polestartrial
+      dataset: airbyte_prod_configapi
+      threads: 1
       keyfile: C:\Users\Helena Geginat\Documents\bigquery_creds.json
+      timeout_seconds: 300

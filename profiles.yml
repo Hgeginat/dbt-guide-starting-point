@@ -7,5 +7,5 @@ HelenaTest:
       project: polestartrial
       dataset: airbyte_prod_configapi
       threads: 1
-      keyfile: C:\Users\Helena Geginat\Documents\bigquery_creds.json
+      keyfile: "{{ env_var('BIGQUERY_KEYFILE') }}"
       timeout_seconds: 300

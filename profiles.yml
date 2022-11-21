@@ -10,4 +10,4 @@ HelenaTest:
       timeout_seconds: 300
       location: EU
       priority: interactive
-      keyfile: "{{ env_var('BIGQUERY_KEYFILE') }}"
+      keyfile: C:\Users\Helena Geginat\Documents\bigquery_creds.json

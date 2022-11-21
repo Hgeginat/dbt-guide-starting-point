@@ -4,8 +4,8 @@ soccer_538:
     dev:
       type: bigquery
       method: service-account
-      project: polestartrial
-      dataset: airbyte_prod_configapi
+      project: soccer538-369314
+      dataset: 538_football
       threads: 1
       keyfile: "{{ env_var('BIGQUERY_KEYFILE') }}"
       timeout_seconds: 300

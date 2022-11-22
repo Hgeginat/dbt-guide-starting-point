@@ -1,12 +1,12 @@
 WITH
   qryMatches AS (
     SELECT *
-    FROM {{ ref('stg_football_matches') }}
+    FROM 'soccer538-369314.538_football.stg_football_matches'
     WHERE league = 'Barclays Premier League'
     ),
   qryRankings AS (
     SELECT *
-    FROM {{ ref('stg_football_rankings') }}
+    FROM 'soccer538-369314.538_football.stg_football_rankings'
     WHERE league = 'Barclays Premier League'
   ),
 
